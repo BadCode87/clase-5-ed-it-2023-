@@ -11,7 +11,7 @@ let parrafo = document.querySelector("p");
 
 function cambiaColor() {
 
-    // document.body.style.background = "linear-gradient(25deg, #ff0000, #0000ff, red, green, blue)";
+    
     
     section.classList.add("sectionclass");
     parrafo.className =  "parrafo";
