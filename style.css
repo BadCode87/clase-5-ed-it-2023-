@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-normal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.sectionclass{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg,  black , #333, #666, white);
+    background-size: 400% 400%;
+    /* position: relative; */
+    animation: animacion 20s ease-out infinite;
+
+}
+
+.parrafo{
+    font-size: 4rem;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.btnColor{
+    padding: 3em;
+    width: 300px;
+    font-size: 1.5rem;
+}
+
+
+@keyframes animacion{
+    0%{background-position: 0 100%;} 
+ 
+    50%{background-position: 100% 0%;}
+ 
+    100%{background-position: 0 100%;}
+}
+
